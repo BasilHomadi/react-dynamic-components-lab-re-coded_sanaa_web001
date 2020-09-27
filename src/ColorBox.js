@@ -8,8 +8,12 @@ export default class ColorBox extends Component {
     ]
   }
 
+<<<<<<< HEAD
   render() {
     if(this.props.opacity >= 0.2) {
+=======
+  render() {if(this.props.opacity >= 0.2) {
+>>>>>>> 4527e5e2e6ad929a153c6978eab8d3476c647909
       return (
         <div className="color-box" style={{opacity: this.props.opacity}}>
           <ColorBox opacity={this.props.opacity - 0.1} />
@@ -19,6 +23,4 @@ export default class ColorBox extends Component {
       return null
     }
   }
-
 }
-

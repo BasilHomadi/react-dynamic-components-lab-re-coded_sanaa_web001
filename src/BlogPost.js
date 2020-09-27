@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
+=======
+// are we missing an import?
+>>>>>>> 4527e5e2e6ad929a153c6978eab8d3476c647909
 import Comment from './Comment.js'
 
 export default class BlogPost extends Component {
@@ -18,11 +22,18 @@ export default class BlogPost extends Component {
         Still I'll rise.<br/>
         -Maya Angelou<br/>
 
+<<<<<<< HEAD
         {
         <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
         }
+=======
+        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[1]} />
+        <Comment commentText={comments[2]} />
+        
+>>>>>>> 4527e5e2e6ad929a153c6978eab8d3476c647909
       </div>
     );
   }
